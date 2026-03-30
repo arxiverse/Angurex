@@ -1,0 +1,56 @@
+/* Login Desktop - Dark */
+
+/* Auto layout */
+@media (prefers-color-scheme: dark) {
+    :root {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+
+        position: relative;
+        width: auto;
+        height: auto;
+
+        background: #000000;
+    }
+
+    .container-fluid {
+        width: auto;
+        height: auto;
+        position: relative;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .container-sm {
+        position: absolute;
+        width: 406px;
+        height: 816px;
+        left: calc(50% - 406px/2);
+        top: calc(50% - 816px/2 + 0.5px);
+
+        background: rgba(0, 0, 0, 0.004);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3), inset 0px 3px 2px rgba(255, 255, 255, 0.3);
+        border-radius: 28px;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+
+        position: relative;
+        width: auto;
+        height: auto;
+
+        background: #FFFFFF;
+    }
+}
